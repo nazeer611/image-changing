@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background: url("child.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin: 160px 0 0 40%;
+    padding: 30px;
+    cursor: pointer;
+    transition: background-image 0.5s; 
+}
+
+.card:hover {
+    background: url("profile.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
